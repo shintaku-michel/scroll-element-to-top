@@ -4,6 +4,19 @@
 
 > Scroll element to top. Scroll de elementos clicados na página, divirtam-se! `Quero testar:` <a href="https://shintaku-michel.github.io/scroll-element-to-top/" target="_blank">https://shintaku-michel.github.io/scroll-element-to-top/</a>
 
+<h4 align="left">Languages and Tools:</h4>
+<p align="left"> 
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+    </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" target="_blank" rel="noreferrer"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="40" height="40"/> 
+    </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="40" height="40"/> 
+    </a>
+</p>
+
 ## Ambiente localhost
 * Sistema operacional `<Windows>`, `<macOS>` ou `<Linux>` .
 
