@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <title>Scroll element to top</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="navbar">
+        <p class="navbar-text">NAVBAR PAGE</p>
+    </div> 
+    
+    <header>
+        <h1>Scroll element to top</h1>
+    </header>
+
+    <div class="container">
+        <div class="item item-first">
+            <h2>Component title</h2>
+            <p>
+                The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect" target="_blank">Element.getBoundingClientRect()</a> 
+                method returns a DOMRect object providing information about the size of an element and its position relative to the viewport. The read-only 
+                <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY" target="_blank">scrollY</a> property of the Window interface returns the 
+                 number of pixels that the document is currently scrolled vertically. The 
+                 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight" target="_blank">Element.clientHeight</a> read-only property is zero 
+                 for elements with no CSS or inline layout boxes; otherwise, it's the inner height of an element in pixels. It includes padding but excludes borders, 
+                 margins, and horizontal scrollbars (if present).
+            </p>
+            <p>
+                O método <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Element/getBoundingClientRect" target="_blank">Element.getBoundingClientRect()</a> retorna o tamanho de um 
+                elemento e sua posição relativa ao viewport. <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Window/scrollY" target="_blank">Window.scrollY</a> retorna 
+                o número de pixels que o documento já rolou verticalmente e <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Element/clientHeight" target="_blank">clientHeight</a> 
+                retorna a altura do objeto document. Comentários do script e links para 
+                acesso a documentação javascript no arquivo js.
+            </p>
+            <button class="btn btn-custom" onclick="alignElementToTop(this)">
+                <img class="icon-scrollTop" src="img/arrowTop.svg">
+                Go to top
+            </button>
+        </div>
+        <div class="item">
+            <h2>Component title</h2>
+            <p>
+                Quae, laboriosam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Nesciunt, fuga porro! Aliquam id itaque labore fugit beatae a repellendus. 
+                Incidunt omnis ad nobis in commodi officia quam assumenda ullam accusantium?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Rerum quidem quis ab iusto minus. Nam ut tempore ipsa velit, 
+                quasi porro laborum quaerat facilis sit sunt, adipisci consequatur. 
+                Quae, laboriosam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Rerum quidem quis ab iusto minus. Nam ut tempore ipsa velit, 
+                quasi porro laborum quaerat facilis sit sunt, adipisci consequatur.
+            </p>
+            <p>
+                Quae, laboriosam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Nesciunt, fuga porro! Aliquam id itaque labore fugit beatae a repellendus. 
+                Incidunt omnis ad nobis in commodi officia quam assumenda ullam accusantium?
+            </p>
+            <button class="btn btn-custom" onclick="alignElementToTop(this)">
+                <img class="icon-scrollTop" src="img/arrowTop.svg">
+                Go to top
+            </button>
+        </div>
+        <div class="item">
+            <h2>Component title</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Rerum quidem quis ab iusto minus. Nam ut tempore ipsa velit, 
+                quasi porro laborum quaerat facilis sit sunt, adipisci consequatur. 
+                Quae, laboriosam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Rerum quidem quis ab iusto minus. Nam ut tempore ipsa velit, 
+                quasi porro laborum quaerat facilis sit sunt, adipisci consequatur.
+            </p>
+            <p>
+                Quae, laboriosam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Nesciunt, fuga porro! Aliquam id itaque labore fugit beatae a repellendus. 
+                Incidunt omnis ad nobis in commodi officia quam assumenda ullam accusantium?
+            </p>
+            <button class="btn btn-custom" onclick="alignElementToTop(this)">
+                <img class="icon-scrollTop" src="img/arrowTop.svg">
+                Go to top
+            </button>
+        </div>
+        <div class="item">
+            <h2>Component title</h2>
+            <p>
+                Quae, laboriosam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Nesciunt, fuga porro! Aliquam id itaque labore fugit beatae a repellendus. 
+                Incidunt omnis ad nobis in commodi officia quam assumenda ullam accusantium?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Rerum quidem quis ab iusto minus. Nam ut tempore ipsa velit, 
+                quasi porro laborum quaerat facilis sit sunt, adipisci consequatur. 
+                Quae, laboriosam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Rerum quidem quis ab iusto minus. Nam ut tempore ipsa velit, 
+                quasi porro laborum quaerat facilis sit sunt, adipisci consequatur.
+            </p>
+            <p>
+                Quae, laboriosam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Nesciunt, fuga porro! Aliquam id itaque labore fugit beatae a repellendus. 
+                Incidunt omnis ad nobis in commodi officia quam assumenda ullam accusantium?
+            </p>
+            <p>
+                Quae, laboriosam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Nesciunt, fuga porro! Aliquam id itaque labore fugit beatae a repellendus. 
+                Incidunt omnis ad nobis in commodi officia quam assumenda ullam accusantium?
+            </p>
+            <button class="btn btn-custom" onclick="alignElementToTop(this)">
+                <img class="icon-scrollTop" src="img/arrowTop.svg">
+                Go to top
+            </button>
+        </div>
+        <div class="item">
+            <h2>Component title</h2>
+            <p>
+                Quae, laboriosam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Nesciunt, fuga porro! Aliquam id itaque labore fugit beatae a repellendus. 
+                Incidunt omnis ad nobis in commodi officia quam assumenda ullam accusantium?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Rerum quidem quis ab iusto minus. Nam ut tempore ipsa velit, 
+                quasi porro laborum quaerat facilis sit sunt, adipisci consequatur. 
+                Quae, laboriosam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Rerum quidem quis ab iusto minus. Nam ut tempore ipsa velit, 
+                quasi porro laborum quaerat facilis sit sunt, adipisci consequatur.
+            </p>
+            <button class="btn btn-custom" onclick="alignElementToTop(this)">
+                <img class="icon-scrollTop" src="img/arrowTop.svg">
+                Go to top
+            </button>
+        </div>
+    </div>
+    <script src="js/elementScrollTop.js"></script>
+</body>
+</html>
